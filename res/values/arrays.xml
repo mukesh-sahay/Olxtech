@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="olx_item_list">
+        <item>Big Buck Bunny</item>
+        <item>Elephants Dream</item>
+        <item>Sintel</item>
+        <item>Tears of Steel</item>
+        <item>Mobiles</item>
+        <item >Tablets</item>
+        <item>Electronic</item>
+        <item >A</item>
+        <item >B</item>
+        <item >C</item>
+        <item >D</item>
+    </string-array>
+</resources>

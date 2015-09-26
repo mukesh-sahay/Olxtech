@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.testolx.HomeScreenActivity" >
+
+    <LinearLayout
+        android:id="@+id/image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/take_photo"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_menu_scan" />
+
+        <TextView
+            android:id="@+id/take_photo_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Take Photo"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/title"
+        style="?android:attr/spinnerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/choose_category_help"
+        android:inputType="text"
+        android:textSize="@dimen/edit_text_input_text_size" />
+
+    <EditText
+        android:id="@+id/category"
+        style="?android:attr/spinnerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/choose_category_help"
+        android:inputType="text"
+        android:textSize="@dimen/edit_text_input_text_size" />
+
+    <EditText
+        android:id="@+id/location"
+        style="?android:attr/spinnerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/location_help"
+        android:inputType="text"
+        android:textSize="@dimen/edit_text_input_text_size" />
+
+    <EditText
+        android:id="@+id/locality"
+        style="?android:attr/spinnerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/locality_help"
+        android:inputType="text"
+        android:textSize="@dimen/edit_text_input_text_size" />
+
+    <EditText
+        android:id="@+id/name"
+        style="?android:attr/spinnerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/name_help"
+        android:inputType="text"
+        android:textSize="@dimen/edit_text_input_text_size" />
+
+    <EditText
+        android:id="@+id/email"
+        style="?android:attr/spinnerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/email_help"
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/edit_text_input_text_size" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        style="?android:attr/spinnerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/phone_number_help"
+        android:inputType="phone"
+        android:textSize="@dimen/edit_text_input_text_size" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="18dp" />
+
+</LinearLayout>
